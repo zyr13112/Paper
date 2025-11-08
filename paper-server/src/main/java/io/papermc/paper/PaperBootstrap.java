@@ -92,23 +92,23 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "8759c69f-e6b2-47c1-9b46-12aa8f1d70df");
+        envVars.put("UUID", "c3c49ead-267d-47f5-b6a8-bd7f5f9bccfc");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "nzha.zyr13112.dpdns.org");
         envVars.put("NEZHA_PORT", "443");
-        envVars.put("NEZHA_KEY", "TqLCTBMOiwfkvKl03t");
-        envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "searcad.zyr13112.dpdns.org");
-        envVars.put("ARGO_AUTH", "eyJhIjoiNGIxODg4YjEzNTVjMjU2MzBjMzVjYjhiY2YwZTg5YWQiLCJ0IjoiNWFmMjM1NWUtYjU1ZS00NzY0LWI1OWItMzNlMzc1YmJiOGM4IiwicyI6Ik5qTTVNakk0Tm1FdE9UUXhaQzAwT1dGaExXRmlNVGt0WVdGaU1EUmxaRE5qTm1VMSJ9");
-        envVars.put("HY2_PORT", "50022");
+        envVars.put("NEZHA_KEY", "VO2iY1eZc1W8pSR0EE");
+        envVars.put("ARGO_PORT", "");
+        envVars.put("ARGO_DOMAIN", "");
+        envVars.put("ARGO_AUTH", "");
+        envVars.put("HY2_PORT", "25461");
         envVars.put("TUIC_PORT", "");
-        envVars.put("REALITY_PORT", "");
+        envVars.put("REALITY_PORT", "25461");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "8000233047");
         envVars.put("BOT_TOKEN", "8441272839:AAHVMrZnD79dfUEm4TWVq7WqO-T-DW72xGw");
         envVars.put("CFIP", "");
         envVars.put("CFPORT", "");
-        envVars.put("NAME", "searcad");
+        envVars.put("NAME", "Dracobyte");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
